@@ -6,5 +6,5 @@ app = Flask(__name__)
 def index():
     return'<h1>Bem vindo à página Home!</h1>'
 
-
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
